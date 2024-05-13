@@ -2,6 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
   name: rollout-deployment
+  namespace: default  # Specify the namespace here
 spec:
   replicas: 3
   selector:
