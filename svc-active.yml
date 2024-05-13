@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: svc-active
+  namespace: default  # Specify the namespace here
 spec:
   type: LoadBalancer
   ports:
