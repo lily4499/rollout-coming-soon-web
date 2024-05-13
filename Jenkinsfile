@@ -9,7 +9,7 @@ node {
     env.IMAGE_TAG = "${env.BUILD_NUMBER}" 
 
     stage('Clone repository') {
-             git branch: 'main', url: 'https://github.com/lily4499/node-express-manifest.git'  
+             git branch: 'main', url: 'https://github.com/lily4499/rollout-coming-soon-web.git'  
     }
 
     stage('Update GIT') {
