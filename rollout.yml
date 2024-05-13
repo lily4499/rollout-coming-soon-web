@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: rollout-container
-          image: laly9999/coming-soon-website
+          image: laly9999/coming-soon-website:1
           ports:
             - name: http
               containerPort: 3000
